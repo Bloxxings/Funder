@@ -3,10 +3,17 @@
     <head>
         <title>Funder</title>
         <link rel="icon" href="Funder_Logo.ico">
+        <script
+            src ="https://maps.googleapis.com/maps/api/js?key=AIzaSyA6myHzS10YXdcazAFalmXvDkrYCp5cLc8&libraries=maps,marker&v=weekly&internal_usage_attribution_ids=gmp_git_jsapisamples_v1_web-components" 
+            defer></script>
     </head>
     <body>
         <h1>Funder</h1>
-        <h2>test</h2>
+        <gmp-map
+            center = "43.5298424,5.4474738"
+            zoom = "14"
+            map-id = "MAP"
+            style="height: 500px"></gmp-map>
         <img src="Funder_Logo.jpeg" alt="Funder Logo">
     </body>
 </html>
